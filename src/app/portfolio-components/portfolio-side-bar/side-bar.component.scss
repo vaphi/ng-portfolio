@@ -1,14 +1,28 @@
 .side-bar-container {
 	display: flex;
 	flex-direction: column;
+	position: fixed;
+	height: 100vh;
+	background: lightsteelblue;
+	float: left;
+	width: 15%;
 }
 
 .side-bar-nav-items {
-	height: 30px;
+	height: 5%;
 	background: lightsalmon;
 }
 
 .side-bar-header {
-	height: 50px;
+	height: 15%;
+	display: inline-block;
+	text-align: center;
+	padding: 15px;
+	img {
+        max-width: 100%;
+		max-height: 100%;
+		border-radius: 25%;
+		
+	}
 
 }

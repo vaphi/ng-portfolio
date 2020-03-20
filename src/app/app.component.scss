@@ -1,14 +1,13 @@
 .side-bar-container {
 	position: fixed;
 	height: 100vh;
-	width: 20vw;
+	width: 15%;
 	background: lightsteelblue;
 	float: left;
 }
 
 .contents-container {
+	width: 85%;
 	float: right;
-	background: gray;
-	height: 100vh;
-	width: 80vw;
+	
 }
