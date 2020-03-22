@@ -5,6 +5,8 @@
 	</div>
 
 	<div class="side-bar-nav-items">
-		sidebar nav
+		<div class="nav-items" *ngFor="let item of navItems">
+			{{item.name}}
+		</div>
 	</div>
 </div>

@@ -9,8 +9,12 @@
 }
 
 .side-bar-nav-items {
-	height: 5%;
-	background: lightsalmon;
+	padding-top: 60px;
+	height: inherit;
+	.nav-items {
+		height: 5%;
+		background: lightsalmon;
+	}
 }
 
 .side-bar-header {

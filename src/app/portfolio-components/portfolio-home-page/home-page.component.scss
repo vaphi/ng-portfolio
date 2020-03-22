@@ -1,4 +1,52 @@
 .home-page-container {
 	background: gray;
 	height: 100vh;
+
+	.about-me {
+		height: inherit;
+		float: left;
+		width: 45%;
+		.container-one {
+			display: flex;
+			flex-direction: column;
+			background: lightgrey;
+			height: 100%;
+
+			.name-container {
+				margin-top: 20%;
+				align-self: center;
+				width: 40%;
+				height: 10%;
+				background: lightgoldenrodyellow;
+				
+				h2 {
+					text-align: center;
+				}
+			}
+
+			.description-container {
+				background: lightsalmon;
+				height: 70%;
+				margin: 50px;
+				padding: 40px;
+			}
+			
+		}
+	}
+
+	.misc-container {
+		display: flex;
+		flex-direction: column;
+		height: inherit;
+
+		.container-two {
+			background: lightskyblue;
+			height: 50%;
+		}
+	
+		.container-three {
+			background: lightsteelblue;
+			height: 50%;
+		}
+	}
 }
